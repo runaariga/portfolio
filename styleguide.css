@@ -35,6 +35,7 @@ main {
 nav {
     display: flex;
     background-color: var(--dark-blue);
+    text-align: center;
   }
 
 nav a {
@@ -49,6 +50,71 @@ nav a:hover {
     color: var(--dark-blue);
   }
 
-main.table {
+.about {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+}
+
+.work {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px; 
+}
+
+.content {
+    width: 100%;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+
+
+table {
     width: 100%;
 }
+
+td {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 15px;
+}
+tr {
+    align-content: center;
+}
+
+
+
+
+/*p {
+    display: inline-block;
+    justify-content: space-between;
+}*/
+
+
+.section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 30px;
+    border-radius: var(--white);
+    border: var(--white);
+    align-content: space-around;
+}    
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    display: inline-table;
+}
+    
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
