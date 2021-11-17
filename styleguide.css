@@ -107,9 +107,10 @@ h2 {
     text-align: center;
 }
 
-h3 {
+.section.contact {
     text-align: center;
-    display: inline-table;
+    display: inline-block;
+    padding: 20px;
 }
     
 
